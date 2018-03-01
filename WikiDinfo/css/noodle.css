@@ -1,0 +1,244 @@
+label { 
+	cursor: pointer; 
+}
+
+h1.titulonodo {
+	font-size: large;
+	display: inline;
+	margin: 0px;
+	background-image: url(../imagens/documento_wiki.bmp);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	vertical-align: middle;
+}
+h1.nodetitle b { 
+/*
+	border: 1px #ddd solid;
+	border-bottom: none;
+*/
+	padding: 3px 10px 0px 10px;
+}
+
+h1.nodetitle a { font-weight: bold; }
+
+h1.nodetitle a:hover {
+	color: white;
+	background: #69c;
+	text-decoration: none;
+}
+
+a.editpage {
+	font-weight: bold;
+}
+
+a.homelink {
+	font-size: small;
+}
+
+div.node-contents {
+	border: 1px #369 dotted; 
+	padding: 5px;
+	margin: .5em 0px;
+}
+
+.recent-changes {
+	border: 1px #369 solid;
+	padding: 5px;
+	margin: 1em 0px;
+}
+
+.recent-changes-day {
+	margin-bottom: 1em;
+}
+
+ul.recent-changes-day {
+	margin: 0px;
+}
+
+.recent-changes-date {
+	font-weight: bold;
+}
+
+div.search-results {
+	border: 1px #369 solid;
+	padding: 5px;
+	margin: .5em 0px;
+}
+
+.search-header { font-weight: bold; } 
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+table.search-form {
+	margin-bottom: 1em;
+}
+
+textarea.node-editor {
+	margin: 0px;
+	padding: 0px;
+	width: 90%;
+}
+
+div.page-search {
+	margin: 1em 0px;
+}
+#header {
+	background-color: #F2F5FD;
+	margin: 2px;
+	padding: 5px;
+	border: 1px solid #0099CC;
+}
+#wraper {
+	width: 100%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0px;
+	width: 100%;
+	background-color: #EEEEEE;
+	margin: 0px;
+}
+#corpo {
+	margin: 0px;
+	padding: 0px;
+}
+#footer {
+	background-color: #F2F5FD;
+	margin: 2px;
+	padding: 5px;
+	border: 1px solid #0099CC;
+	clear: both;
+}
+.menunodo {
+	display: inline;
+}
+.itemmenunodo {
+	font-weight: bold;
+	display: inline;
+	background-image: url(../imagens/lista.bmp);
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+
+
+
+
+#panelsidebar {
+	width: 200px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+#panelconteudo {
+	padding: 2px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 200px;
+}
+#conteudo {
+	border: 1px solid #0099CC;
+	background-color: #FFFFFF;
+	padding: 15px;
+	margin: 0px;
+}
+#cabecalhoconteudo {
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	margin: 0px;
+	color: #002BB8;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #F2F5FD;
+	border: 1px solid #0099CC;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+#corpoconteudo {
+	background-color: #FFFFFF;
+}
+.menu-navegacao {
+	background-color: #FFFFFF;
+	margin: 2px;
+	padding: 10px;
+	border: 1px solid #0099CC;
+}
+h1.menuprocura {
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	margin: 5px;
+	color: #002BB8;
+	font-weight: bold;
+	font-size: 120%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #F2F5FD;
+	border: 1px solid #0099CC;
+	background-image: url(../imagens/pesquisar.bmp);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+}
+h1.menunavegacao{
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	margin: 5px;
+	color: #002BB8;
+	font-weight: bold;
+	font-size: 120%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #F2F5FD;
+	border: 1px solid #0099CC;
+	background-image: url(../imagens/navegar.bmp);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+}
+
+
+.lista {
+	list-style-image: url(../imagens/lista.bmp);
+}
+
+
+
+
+form.form-login {
+}
+
+.estiloteste {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:36px
+}
+	

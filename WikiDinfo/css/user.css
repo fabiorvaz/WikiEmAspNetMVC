@@ -1,0 +1,77 @@
+h1 {
+	font-size: 150%;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+h2 {
+	font-size: 140%;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+h3 {
+	font-size: 130%;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+h4 {
+	font-size: 120%;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+h5 {
+	font-size: 110%;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+ul {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+li {
+	margin: 0px;
+	padding: 0px;
+}
+
+.console {
+	margin: 5px;
+	padding: 5px;
+	color: lightgray;
+	background-color: black;
+	display: inline-block;
+}
+
+.codigo {
+	margin: 5px;
+	padding: 5px;
+	display: inline-block;
+	border: solid thin black;
+}
+
+.code_control  { color: Blue; font-weight: bold; }
+.code_string { color: Brown; background-color: PeachPuff; }
+.code_ident { color: Brown; font-weight: bold; }
+.code_cmd  { color: Blue; }
+.code_func { color: Blue; font-weight: bold; }
+
+.menu {
+	background-color: #FFFF99;
+}
+
+.tecla {
+	background-color: LightGray;
+	padding: 1px;
+	margin: 1px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid #BFBFBF;
+	border-left: 1px solid #BFBFBF;
+	display: inline-block;
+}
